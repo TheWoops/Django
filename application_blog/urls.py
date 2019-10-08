@@ -1,12 +1,6 @@
-from django.conf.urls import url
+from django.urls import path
 from . import views
 
 urlpatterns = [
-url(r'^$', views.index, name='index'),
-# ex: /application_blog/5/
-url(r'^(?P<question_id>[0-9]+)/$', views.detail, name='detail'),
-# ex: /application_blog/5/results/
-url(r'^(?P<question_id>[0-9]+)/results/$', views.results, name='results'),
-# ex: /application_blog/5/vote/
-url(r'^(?P<question_id>[0-9]+)/vote/$', views.vote, name='vote'),
+    path('', views.post_list, name='post_list'),
 ]

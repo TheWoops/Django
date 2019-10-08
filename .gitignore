@@ -1,3 +1,6 @@
 /.idea/
 /venv/
 /MyDatabase
+
+# Ignore bytecode files (compiled files)
+*.pyc

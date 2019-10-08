@@ -1,6 +1,6 @@
 /.idea/
 /venv/
-/MyDatabase
+/My_sqlite_Database
 
 # Ignore bytecode files (compiled files)
 *.pyc

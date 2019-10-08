@@ -14,6 +14,6 @@ class QuestionViewTests(TestCase):
        """
        response = self.client.get(reverse('index'))
        self.assertEqual(response.status_code, 200)
-       self.assertContains(response, "No polls are available.")
+       self.assertContains(response, "No application_blog are available.")
        self.assertQuerysetEqual(response.context['latest_question_list'], [])
 

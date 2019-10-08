@@ -1,6 +1,11 @@
 /.idea/
-/venv/
 /My_sqlite_Database
+venv
+/static
+.DS_Store
+*~
 
 # Ignore bytecode files (compiled files)
 *.pyc
+__pycache__
+
